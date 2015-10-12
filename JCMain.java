@@ -10,7 +10,7 @@ import java.awt.event.*;
 //import javax.swing.event.*;
 
 
-public class JCMain extends JFrame//jframe
+public class JCMain extends JApplet//jframe
 {
 	Panel1 panel1= new Panel1();
     Panel2 panel2= new Panel2();
@@ -21,24 +21,18 @@ public class JCMain extends JFrame//jframe
 	
 	//private boolean booleanV=false;
 	
-	public static void main (String [] args)//main
+	public void init()//main
 	{
-	 JCMain ff= new JCMain();
+				 cP = new CardPages();			// object for pages CardLayout class
+			 setContentPane(cP);
 	}
        
 
         public JCMain()//constructor
-        { 
-             super ("Bubbles Menu");
-             setSize (1000, 800);
-             setDefaultCloseOperation(DISPOSE_ON_CLOSE);
-             setLocation(0, 0);
-             setResizable(true); 
+ 		{	
 			
-			 cP = new CardPages();			// object for pages CardLayout class
-			 add(cP);						// add CardLayout object to the container
-			 ccc.show(cP, "p1");	
-			  setVisible(true);
+						// add CardLayout object to the container
+			 
         }
 
 
