@@ -1,4 +1,4 @@
-//Christina Lau
+//Christina Lau and Jasmine Wang
 //4-20-15
 //JC1.java is the menu of the game, it leads to the game, instructions, and credits
 
