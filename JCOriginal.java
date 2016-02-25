@@ -1,4 +1,4 @@
-//Christina Lau
+//Christina Lau and Jasmine Wang
 //4-21-15
 ////First draft of game- level one only
 //Testing plan: a bubble should follow the user's mouse. Should not need to click. 
